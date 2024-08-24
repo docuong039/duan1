@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tính tổng và hiệu</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="wrapper">
+  <div class="container">
+    <h1>Tính tổng và hiệu</h1>
+    <table>
+      <tr>
+        <td>Số thứ nhất:</td>
+        <td><input type="text" id="number1"></td>
+      </tr>
+      <tr>
+        <td>Số thứ hai:</td>
+        <td><input type="text" id="number2"></td>
+      </tr>
+      <tr>
+        <td>Kết quả:</td>
+        <td><input type="text" id="result-input" readonly></td>
+      </tr>
+    </table>
+    <div class="button-group">
+      <button onclick="calculateSum()">Tính tổng</button>
+      <button onclick="calculateDifference()">Tính hiệu</button>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
